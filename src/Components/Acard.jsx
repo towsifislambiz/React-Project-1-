@@ -1,12 +1,12 @@
 import React from 'react'
 import { GoArrowRight } from "react-icons/go";
 
-const Acard = ({title, heading , Text ,title2}) => {
+const Acard = ({title, heading , Text ,title2 , className}) => {
   return (
     <div>
             <div className='w-[370px]  shadow-2xl group'>
       
-                  <div className='w-[370px] h-[270px] bg-[#C4C4C4]'></div>
+                  <div className={` w-[370px] h-[270px] bg-[#C4C4C4]  ${className}`}></div>
       
                   <div>
       

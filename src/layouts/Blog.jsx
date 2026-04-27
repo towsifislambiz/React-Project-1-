@@ -14,14 +14,14 @@ const Blog = () => {
          <Heading text='Blog & Articles' className='text-center'/>
 
          <div className='flex justify-between mt-[40px]'>
-<Acard title='By David William' heading='Quis autem vea eum iure reprehenderit.' Text='Dolor repellendus temporibus autem rerum quibusdam officiis debitis nece. ' title2='Read More'/>
+<Acard className='bg-Bimg1 bg-no-repeat bg-center bg-cover' title='By David William' heading='Quis autem vea eum iure reprehenderit.' Text='Dolor repellendus temporibus autem rerum quibusdam officiis debitis nece. ' title2='Read More'/>
 
 
-<Acard title='By Will Doie' heading='Reprehenderit in vouta
+<Acard className='bg-Bimg2 bg-no-repeat bg-center bg-cover' title='By Will Doie' heading='Reprehenderit in vouta
 velit esse cillum.' Text='Dolor repellendus temporibus autem rerum quibusdam officiis debitis nece.' title2='Read More'/>
 
 
-<Acard title='By Adam Smith' heading='Soluta nobis ose aligen
+<Acard className='bg-Bimg3 bg-no-repeat bg-center bg-cover' title='By Adam Smith' heading='Soluta nobis ose aligen
 optio cumue.' Text='Dolor repellendus temporibus autem rerum quibusdam officiis debitis nece.' title2='Read More'/>
          </div>
     </Container>

@@ -27,11 +27,11 @@ const Project = () => {
 
 
 <div className='flex justify-between mb-[60px]'>
-<Pcard title='Analytics, UI-Ux' heading='Branding & Digital Video Campaign For George’s Cafe' Text="Lorem Ipsum Is Simply Dummy Text Of The
+<Pcard className='bg-Pimg1 bg-no-repeat bg-cover bg-center' title='Analytics, UI-Ux' heading='Branding & Digital Video Campaign For George’s Cafe' Text="Lorem Ipsum Is Simply Dummy Text Of The
 Printing And Typesetting Industry." title2='View Case Studies'/>
-<Pcard title='Mobile App' heading='Branding & Digital Video Campaign For George’s Cafe' Text="Lorem Ipsum Is Simply Dummy Text Of The
+<Pcard  className='bg-Pimg2 bg-no-repeat bg-cover bg-center'  title='Mobile App' heading='Branding & Digital Video Campaign For George’s Cafe' Text="Lorem Ipsum Is Simply Dummy Text Of The
 Printing And Typesetting Industry." title2='View Case Studies'/>
-<Pcard title='Web Development' heading='Branding & Digital Video Campaign For George’s Cafe' Text="Lorem Ipsum Is Simply Dummy Text Of The
+<Pcard  className='bg-Pimg3 bg-no-repeat bg-cover bg-center' title='Web Development' heading='Branding & Digital Video Campaign For George’s Cafe' Text="Lorem Ipsum Is Simply Dummy Text Of The
 Printing And Typesetting Industry." title2='View Case Studies'/>
 </div>
 

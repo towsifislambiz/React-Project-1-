@@ -23,11 +23,11 @@ const About = () => {
 
           <div className='w-1/2 flex justify-between mb-20'>
 
-            <div className='w-[420px] h-[500px] bg-[#C4C4C4]'></div>
+            <div className='w-[420px] h-[500px] bg-Aimg2 bg-no-repeat bg-cover bg-center'></div>
 
             <div className='flex flex-col justify-between'>
-              <div className='w-[200px] h-[240px] bg-[#C4C4C4]'></div>
-              <div className='w-[200px] h-[240px] bg-[#C4C4C4]'></div>
+              <div className='w-[200px] h-[240px] bg-Aimg1 bg-no-repeat bg-cover bg-center'></div>
+              <div className='w-[200px] h-[240px] bg-Aimg3 bg-no-repeat bg-cover bg-center '></div>
             </div>
 
           </div>

@@ -13,7 +13,7 @@ const Contact = () => {
     <Container>
     <Flex className='items-center'>
             <div className='w-5/12'>
-            <div className='w-full bg-[#C4C4C4] h-[650px]'></div>
+            <div className='w-full bg-Cimg bg-no-repeat bg-cover bg-center h-[650px]'></div>
             </div>
         <div className='w-7/12'>
         <div className='ml-[30px]'>

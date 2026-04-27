@@ -3,13 +3,13 @@ import Image from './Image'
 import Star from '../assets/Star.png'
 import Ticon from '../assets/Tbox.png'
 
-const Pbox = ({ Text, title }) => {
+const Pbox = ({ Text, title , className }) => {
   return (
     <div className='w-[250px] h-[100px] flex justify-between items-center'>
       <div className='cursor-pointer relative w-[100px] h-[100px] rounded-full border-[1px] border-c2'>
         
         <div className='flex justify-center items-center w-[100px] h-[100px]'>
-          <div className='w-[90px] h-[90px] rounded-full bg-[#C4C4C4] absolute top-[4px] left-[4px]'></div>
+          <div className={`w-[90px] h-[90px] rounded-full bg-[#C4C4C4] absolute top-[4px] left-[4px] ${className}`}></div>
         </div>
 
         <Image className='absolute top-[80px] left-[35px]' src={Ticon} alt='icon' />

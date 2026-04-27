@@ -1,11 +1,11 @@
 import React from 'react'
 import { GoArrowRight } from "react-icons/go";
 
-const Pcard = ({ title, heading, Text, title2 }) => {
+const Pcard = ({ title, heading, Text, title2  , className}) => {
     return (
         <div className='w-[370px] shadow-2xl group'>
 
-            <div className='w-[370px] h-[270px] bg-[#C4C4C4]'></div>
+            <div className={`w-[370px] h-[270px] bg-[#C4C4C4] ${className}`}></div>
 
             <div className='mt-5 ml-6 mb-[30px]'>
 

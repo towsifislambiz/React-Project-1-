@@ -26,10 +26,10 @@ const Work = () => {
 </div>
 
 <div className='flex justify-between flex-wrap gap-y-[30px]'>
-    <Wcard title='Motion Graphics' Text='Website'/>
-    <Wcard title='E-Learning App' Text='IOS App'/>
-    <Wcard title='Web Application' Text='Desktop'/>
-    <Wcard title='Visual Design' Text='Desktop'/>
+    <Wcard className=' bg-Wimg1 bg-no-repeat bg-cover bg-center' title='Motion Graphics' Text='Website'/>
+    <Wcard className=' bg-Wimg2 bg-no-repeat bg-cover bg-center'  title='E-Learning App' Text='IOS App'/>
+    <Wcard className=' bg-Wimg3 bg-no-repeat bg-cover bg-center'  title='Web Application' Text='Desktop'/>
+    <Wcard className=' bg-Wimg4 bg-no-repeat bg-cover bg-center'  title='Visual Design' Text='Desktop'/>
 </div>
  
 
