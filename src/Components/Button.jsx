@@ -1,11 +1,13 @@
 import React from 'react'
 
-const button = ({text,className}) => {
+const Button = ({ text, className }) => {
   return (
-    <div>
-      <button className={`bg-c2 px-3 py-6 ${className}`}><span className={`bg-c2 text-white py-4 px-9 text-lg font-jost font-medium border border-white' ${className}`}>{text}</span></button>
-    </div>
+    <button className={`bg-c2 px-3 py-6 ${className}`}>
+      <span className="text-white py-4 px-9 text-lg font-jost font-medium border border-white">
+        {text}
+      </span>
+    </button>
   )
 }
 
-export default button
+export default Button

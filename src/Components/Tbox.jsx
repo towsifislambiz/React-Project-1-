@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Tbox = ({Text, className}) => {
+const Tbox = ({ Text, className }) => {
   return (
-    <div className={`' w-[630px] h-[158px]  shadow-2xl  border-t-[8px] border-c2 ' ${className}`}>
- <p className='text-base font-jost font-normal text-[#00413db3] w-[520px] mx-auto mt-[30px]'>{Text}</p>
+    <div className={`w-[630px] h-[158px] shadow-2xl border-t-[8px] border-c2 ${className}`}>
+      <p className='text-base font-jost font-normal text-[#00413db3] w-[520px] mx-auto mt-[30px]'>
+        {Text}
+      </p>
     </div>
   )
 }
