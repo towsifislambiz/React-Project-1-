@@ -9,7 +9,11 @@ import Image from '../Components/Image'
 
 const Testimonial = () => {
   return (
-    <section className='bg-[#F9F4F1] pt-[121px] mb-[120px]'>
+    <section className='bg-[#F9F4F1] pt-[121px] mb-[120px] relative '>
+
+<div className='w-[60px] h-[60px] bg-contain bg-center bg-cover bg-Atimg2 absolute left-[160px] top-0 animate-Tb4'></div>
+<div className='w-[60px] h-[60px] bg-contain bg-center bg-cover bg-Atimg1 absolute right-[159px] bottom-0 animate-Bt2'></div>
+
       <Container>
 
         <div className='w-full flex justify-center items-center pb-[11px]'>

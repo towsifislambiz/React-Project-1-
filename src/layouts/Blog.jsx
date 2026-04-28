@@ -6,7 +6,8 @@ import Acard from '../Components/Acard'
 
 const Blog = () => {
   return (
- <section className='mb-[120px]'>
+ <section className='mb-[120px] relative'>
+     <div className='bg-Abimg1 bg-cover bg-center bg-contain w-[50px] h-[389px] absolute top-0 left-[129px] animate-Tb5'></div>
     <Container>
         <div className='w-full flex justify-center '>
              <Subtitle Text='Letest Blogs'/>

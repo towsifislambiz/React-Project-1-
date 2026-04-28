@@ -9,7 +9,10 @@ import Button from '../Components/Button'
 
 const Contact = () => {
   return (
-<section className='pb-[120px]'>
+<section className='pb-[120px] relative'>
+
+<div className='bg-Acimg1 w-[80px] h-[247px] bg-cover bg-contain bg-center absolute top-[51px] right-0 animate-siring2'></div>
+
     <Container>
     <Flex className='items-center'>
             <div className='w-5/12'>

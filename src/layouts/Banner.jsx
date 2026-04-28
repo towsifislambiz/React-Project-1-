@@ -5,10 +5,13 @@ import Button from '../Components/Button'
 
 const Banner = () => {
   return (
-    <div className=  'group bg-c1 pt-[221px] relative  '> 
+    <div className= ' relative  group bg-c1 pt-[221px] '> 
 <div className="absolute top-0 right-0 bg-banner bg-no-repeat bg-center bg-cover h-full w-0 group-hover:w-[900px] duration-500 z-0"></div>
-
-
+  
+  <div className='absolute bg-Bv w-[26px] h-[30px] top-[191px] opacity-20 left-[889px] bg-cover bg-contain bg-center animate-rotate1  '></div>
+  
+  <div className='absolute top-[300px] left-[-220px] w-[500px] h-[615px] bg-Keyimg1 bg-no-repeat bg-center bg-contain opacity-25 animate-Brotate'></div>
+     
      <Container>
 
 <div className='relative z-10'>

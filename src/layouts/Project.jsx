@@ -13,7 +13,9 @@ import Button from '../Components/Button'
 
 const Project = () => {
   return (
-  <section>
+  <section className='relative'>
+<div className= ' animate-plus absolute top-[204px] right-[0px] bg-Apimg bg-contain bg-center bg-cover  w-[101px] h-[103px]'></div>
+<div className='animate-Tb2 absolute bg-Abimg1 w-[50px] h-[389px] bg-contain bg-center bg-cover top-0 left-[84px]'></div>
     <Container>
 <Subtitle Text='Recent Projects'/>
 <div className='flex justify-between pt-[8px] mb-10' >

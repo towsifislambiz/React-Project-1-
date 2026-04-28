@@ -8,7 +8,10 @@ import Wcard from '../Components/Wcard'
 
 const Work = () => {
   return (
- <section className='mb-[120px]'>
+ <section className='mb-[120px] relative'>
+
+    <div className='animate-Tb3 bg-Awimg w-[101px] h-[103px] bg-contain bg-center bg-cover absolute top-[100px] left-[100px]'></div>
+    <div className=' bg-Awimg w-[101px] h-[103px] bg-contain bg-center bg-cover absolute bottom-[-70px] right-[80px] animate-Bt'></div>
     <Container>
             <div className='flex w-full justify-center mb-3'>
         <Subtitle Text='My Portfolio'/>
