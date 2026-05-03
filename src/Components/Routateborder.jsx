@@ -6,9 +6,11 @@ const Routateborder = ({ className, Text, target }) => {
   useEffect(() => {
     setCount(0)
 
+    const safeTarget = target || 0
+
     let interval = setInterval(() => {
       setCount((prev) => {
-        if (prev < target) {
+        if (prev < safeTarget) {
           return prev + 1
         } else {
           clearInterval(interval)
@@ -27,7 +29,7 @@ const Routateborder = ({ className, Text, target }) => {
         <span className='w-[180px] h-[180px] md:w-[200px] md:h-[200px] rounded-full bg-[#C4C4C4] inline-block relative'>
           
           {/* rotating border */}
-          <span className={`w-[180px] h-[180px]  md:w-[200px] md:h-[200px] bg-[#C4C4C4] rounded-full inline-block absolute border-[10px] border-c2 border-r-transparent animate-rotateBorder ${className}`}></span>
+          <span className={`w-[180px] h-[180px] md:w-[200px] md:h-[200px] bg-[#C4C4C4] rounded-full inline-block absolute border-[10px] border-c2 border-r-transparent animate-rotateBorder ${className}`}></span>
 
           {/* white circle + number */}
           <span className='bg-white w-[160px] h-[160px] md:w-[180px] md:h-[180px] inline-block rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center'>
@@ -50,5 +52,3 @@ const Routateborder = ({ className, Text, target }) => {
 }
 
 export default Routateborder
-
-
