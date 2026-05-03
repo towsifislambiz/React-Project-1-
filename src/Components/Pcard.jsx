@@ -3,11 +3,11 @@ import { GoArrowRight } from "react-icons/go";
 
 const Pcard = ({ title, heading, Text, title2  , className}) => {
     return (
-        <div className='w-[370px] shadow-2xl group'>
+        <div className='w-[340px] md:w-[370px] shadow-2xl group'>
 
-            <div className={`w-[370px] h-[270px] bg-[#C4C4C4] ${className}`}></div>
+            <div className={`w-[340px] md:w-[370px] h-[270px] bg-[#C4C4C4] ${className}`}></div>
 
-            <div className='mt-5 ml-6 mb-[30px]'>
+            <div className='mt-4 md:mt-5 ml-4 md:ml-6 mb-[30px]'>
 
                 <span className='font-vol font-medium text-base text-c2 cursor-pointer'>
                     {title}
@@ -21,9 +21,9 @@ const Pcard = ({ title, heading, Text, title2  , className}) => {
                     {Text}
                 </p>
 
-                <span className='group-hover:text-c2 duration-300 flex items-center font-jost font-medium text-xl text-c1 cursor-pointer'>
+                <span className='md:group-hover:text-c2 duration-300 flex items-center font-jost font-medium text-lg md:text-xl text-c1 cursor-pointer'>
                     {title2}
-                    <GoArrowRight className='group-hover:opacity-100 group-hover:translate-x-5 transition-all duration-300 text-2xl -translate-x-2 ml-2 opacity-0' />
+                    <GoArrowRight className='md:group-hover:opacity-100 group-hover:translate-x-5 transition-all duration-300 text-2xl -translate-x-2 ml-2 opacity-0' />
                 </span>
 
             </div>

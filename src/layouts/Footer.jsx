@@ -16,8 +16,8 @@ const Footer = () => {
       <Image src={Fimg} alt='footer-Image'/>
   </div>
 
-<div className='w-full flex justify-center pb-[50px]'>
-    <ul className='flex gap-x-[27px]'>
+<div className='w-full flex justify-center pb-[40px] md:pb-[50px]'>
+    <ul className='flex flex-wrap gap-x-[10px] md:gap-x-[25px]'>
     <Flist Text='Home' className='cursor-pointer'/>
     <Flist Text='About' className='cursor-pointer'/>
     <Flist Text='Services' className='cursor-pointer'/>
@@ -28,14 +28,14 @@ const Footer = () => {
 </div>
 
 
-<div className='flex gap-x-[20px] w-full justify-center pb-[80px]'>
+<div className='flex gap-x-[20px] w-full justify-center pb-[60px] md:pb-[80px]'>
 <Fbox icon={Ficon3}/>
 <Fbox icon={Ficon2}/>
 <Fbox icon={Ficon}/>
 </div>
 
 <div className='pb-[30px]'>
-  <div className='w-full h-[2px] bg-[#ffffff1a] '></div>
+  <div className='md:w-full h-[2px] bg-[#ffffff1a] '></div>
 </div>
 
 <div className='w-full flex justify-center items-center pb-[30px]'>

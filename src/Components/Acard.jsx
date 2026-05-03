@@ -4,9 +4,9 @@ import { GoArrowRight } from "react-icons/go";
 const Acard = ({title, heading , Text ,title2 , className}) => {
   return (
     <div>
-            <div className='w-[370px]  shadow-2xl group'>
+            <div className='w-[340px] md:w-[370px]  shadow-2xl group'>
       
-                  <div className={` w-[370px] h-[270px] bg-[#C4C4C4]  ${className}`}></div>
+                  <div className={`w-full md:w-[370px] h-[270px] bg-[#C4C4C4]  ${className}`}></div>
       
                   <div>
       
@@ -19,8 +19,8 @@ const Acard = ({title, heading , Text ,title2 , className}) => {
                           <p className='font-jost font-normal text-base text-c1 w-[289px] pt-[10px] pb-[24px]'>{Text}</p>
       
       
-                  <span className=' group: group-hover:text-c2 duration-300 flex items-center font-jost font-medium text-xl text-c1  inline-block cursor-pointer'>
-                             {title2} <GoArrowRight className='group-hover:opacity-100 group-hover:translate-x-5  transition-all duration-300 text-2xl -translate-x-2 ml-2 opacity-0 ' />
+                  <span className='group md:group-hover:text-c2 duration-300 flex items-center font-jost font-medium text-xl text-c1  inline-block cursor-pointer'>
+                             {title2} <GoArrowRight className='md:group-hover:opacity-100 md:group-hover:translate-x-5  transition-all duration-300 text-2xl -translate-x-2 ml-2 opacity-0 ' />
                           </span>
       
                       </div>
