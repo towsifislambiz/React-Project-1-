@@ -19,7 +19,7 @@ const Work = () => {
      <Heading text='My Work Example' className='text-center'/>
 
 <div className='w-full flex justify-center'>
-    <ul className='flex gap-x-[20px] mt-6 mb-10'>
+    <ul className='flex gap-x-[20px] sm:gap-x-[35px] mt-6 mb-10'>
     <ListItem2 text='All'/>
     <ListItem2 text='Branding'/>
     <ListItem2 text='Photography'/>

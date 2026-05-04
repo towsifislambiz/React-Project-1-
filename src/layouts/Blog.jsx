@@ -15,7 +15,7 @@ const Blog = () => {
         </div>
          <Heading text='Blog & Articles' className='text-center'/>
 
-         <div className='flex flex-wrap gap-y-[30px] justify-center md:justify-between mt-[40px]'>
+         <div className='flex flex-wrap  gap-y-[30px] justify-center md:justify-between mt-[40px]'>
 <Acard className='bg-Bimg1 bg-no-repeat bg-center bg-cover' title='By David William' heading='Quis autem vea eum iure reprehenderit.' Text='Dolor repellendus temporibus autem rerum quibusdam officiis debitis nece. ' title2='Read More'/>
 
 

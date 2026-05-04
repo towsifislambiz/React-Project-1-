@@ -22,10 +22,12 @@ const Testimonial = () => {
 
         <Heading className='text-center pb-10' text='Feedback From Client' />
 
-<div className='flex md:justify-between flex-wrap gap-y-[30px] md:gap-y-0 pb-[90px]'>
+
+<div className='flex justify-center md:justify-between flex-wrap gap-y-[30px] md:gap-y-0 pb-[90px]'>
 
   {/* CARD 1 */}
-  <div className='flex flex-col items-center text-center'>
+  <div className='flex flex-col items-center text-center sm:w-[80%] md:w-[48%]'>
+    
     <div className='w-full flex justify-center'>
       <Tbox Text='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and this typesetting industry.' />
     </div>
@@ -37,10 +39,13 @@ const Testimonial = () => {
         Text='Product Designer'
       />
     </div>
+
   </div>
 
+
   {/* CARD 2 */}
-  <div className='flex flex-col items-center text-center'>
+  <div className='flex flex-col items-center text-center sm:w-[80%] md:w-[48%]'>
+
     <div className='w-full flex justify-center'>
       <Tbox Text='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and this typesetting industry.' />
     </div>
@@ -52,9 +57,12 @@ const Testimonial = () => {
         Text='Designer'
       />
     </div>
+
   </div>
 
 </div>
+
+
 
 
         <div className='w-full flex justify-center pb-[72px] cursor-pointer'>

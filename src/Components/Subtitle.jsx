@@ -3,7 +3,7 @@ import React from 'react'
 const Subtitle = ({ className, Text }) => {
   return (
     <h4
-      className={`group relative inline-block cursor-pointer font-medium font-vol text-lg text-c2 overflow-hidden ${className}`}
+      className={`group relative inline-block cursor-pointer font-medium font-vol text-lg sm:text-xl text-c2 overflow-hidden ${className}`}
     >
       {/* Icon wrapper */}
       <span className="hidden absolute left-0 top-1/2 -translate-y-1/2 md:flex items-center transform -translate-x-12 opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">

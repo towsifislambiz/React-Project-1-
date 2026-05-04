@@ -17,8 +17,8 @@ const Contact = () => {
 <Flex className="flex flex-col md:flex-row md:items-center md:justify-between">
 
   {/* LEFT IMAGE */}
-<div className="w-full md:w-5/12">
-  <div className="bg-Cimg bg-no-repeat bg-cover bg-center w-full h-[400px] md:h-[650px]"></div>
+<div className="w-full  sm:flex sm:justify-center md:w-5/12">
+  <div className="bg-Cimg sm:w-[550px] bg-no-repeat bg-cover bg-center w-full h-[400px] md:h-[650px]"></div>
 </div>
 
 
@@ -31,13 +31,22 @@ const Contact = () => {
     </div>
       <Heading className='text-center md:text-start' text="Feel Free to Contact" />
 
-      <div className="flex flex-wrap justify-center md:justify-between gap-y-[60px] mt-[40px] mb-[60px]">
-        <Input type="name" place="Enter Name" />
-        <Input type="email" place="Enter Email" />
-        <Input type="phone" place="Phone" />
-        <Input type="Subject" place="Subject" />
-        <Input type="Subject" place="Subject" className="md:w-[740px]" />
-      </div>
+      
+       <div className="flex flex-wrap md:justify-between sm:justify-center justify-center gap-y-[60px] mt-[40px] mb-[60px]">
+
+  <Input type="name" place="Enter Name" className="md:w-[48%] sm:w-[450px]" />
+
+  <Input type="email" place="Enter Email" className="md:w-[48%] sm:w-[450px]" />
+
+  <Input type="phone" place="Phone" className="md:w-[48%] sm:w-[450px]" />
+
+  <Input type="subject" place="Subject" className="md:w-[48%] sm:w-[450px]" />
+
+  {/* BIG INPUT */}
+  <Input type="text" place="Subject" className="md:w-[740px] sm:w-[450px]" />
+
+</div>
+     
 
       <div className='flex justify-center md:block'>
         <Button text="Contact Us" />

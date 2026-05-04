@@ -23,16 +23,16 @@ const About = () => {
      <Container>
 
 
-  <Flex className="flex flex-col md:flex-row gap-10">
+  <Flex className="flex flex-col md:flex-row md:items-center gap-10">
 
   {/* LEFT SIDE */}
   <div className="w-full md:w-1/2 flex flex-col md:flex-row gap-5 items-center md:items-start">
 
-    <div className="w-full md:w-[420px] h-[300px]  md:h-[500px] bg-Aimg2 bg-no-repeat bg-cover bg-center rounded-lg"></div>
+    <div className="w-full sm:w-[550px] sm:h-[400px] md:w-[420px] h-[300px]  md:h-[500px] bg-Aimg2 bg-no-repeat bg-cover bg-center rounded-lg"></div>
 
-    <div className="flex flex-row md:flex-col gap-5 w-full md:w-auto">
-      <div className="w-1/2 md:w-[200px] h-[200px] md:h-[240px] bg-Aimg1 bg-no-repeat bg-cover bg-center rounded-lg"></div>
-      <div className="w-1/2 md:w-[200px] h-[200px] md:h-[240px] bg-Aimg3 bg-no-repeat bg-cover bg-center rounded-lg"></div>
+    <div className="flex flex-row md:flex-col gap-5 w-full md:w-auto ">
+      <div className="w-1/2 sm:w-[48%] sm:ml-[20px] md:ml-[0px] md:w-[200px] h-[200px] md:h-[240px] bg-Aimg1 bg-no-repeat bg-cover bg-center rounded-lg"></div>
+      <div className="w-1/2 sm:w-[48%] sm:mr-[20px] md:mr-[0px] md:w-[200px] h-[200px] md:h-[240px] bg-Aimg3 bg-no-repeat bg-cover bg-center rounded-lg"></div>
     </div>
 
   </div>
@@ -46,17 +46,17 @@ const About = () => {
  </div >
 <div className='w-full px-2'>
       <Heading
-      className="pt-3"
+      className="pt-3 sm:text-center md:text-start sm:pb-[10px]"
       text="I Enjoy Solving Problems With Scalable Solutions"
     />
 
-    <p className="font-jost font-normal text-base text-[#00413db3] w-full md:w-[90%] pt-1">
+    <p className="font-jost font-normal text-base text-[#00413db3] w-full sm:text-center md:text-start md:mx-0 sm:mx-auto sm:w-[550px] md:w-[90%] pt-1">
       Quisruam est, qui dolorem ipsum quia dolor sit amet, consecteaur
       aeci velit, sed quia non numquam eius modi tempora incidunt lao
       magnam aliquam quaerat voluptatem reprehenderit.
     </p>
 
-    <p className="font-jost font-normal text-base text-[#00413db3] w-full md:w-[90%] pt-6 mb-10">
+    <p className="font-jost font-normal text-base text-[#00413db3] sm:text-center sm:mx-auto md:text-start md:mx-0 sm:w-[550px] w-full md:w-[90%] pt-6 mb-10">
       Modi tempora incidunt ut lao magnam aliquam quaerat voluptatem
       reprehenderit non numquam eius.
     </p>
@@ -71,20 +71,20 @@ const About = () => {
 </Flex>
 
         {/* SKILLS CARDS */}
-        <div className='mb-[80px] md:mb-[120px] mt-[80px]'>
+      <div className="mb-[80px] md:mb-[120px] mt-[80px]">
 
-   <div className="flex flex-wrap justify-center gap-5 md:gap-8">
-  {cardData.map((item) => (
-    <Routateborder
-      className="border-b-transparent border-l-transparent"
-      key={item.id}
-      Text={item.text}
-      target={item.target}
-    />
-  ))}
+  <div className="flex flex-wrap justify-center md:justify-between gap-5 md:gap-8">
+    {cardData.map((item) => (
+      <Routateborder
+        key={item.id}
+        className="border-b-transparent border-l-transparent"
+        Text={item.text}
+        target={item.target}
+      />
+    ))}
+  </div>
+
 </div>
-
-        </div>
 
       </Container>
     </section>

@@ -15,7 +15,9 @@ const Banner = () => {
      <Container>
 
 <div className='relative z-10'>
-      <h1 className=' text-center md:text-start text-[36px] md:text-[100px] text-white font-bold font-vol leading-[56px] md:leading-[110px]'>Hello! <br />I’m Zarror Nibors</h1>
+      <h1 className=' text-center md:text-start text-[36px] sm:text-5xl md:text-[100px] text-white font-bold font-vol leading-[56px] sm:leading-[62px] md:leading-[110px]'>Hello! <br />I’m Zarror Nibors</h1>
+
+
     <p className='text-center md:text-start font-jost font-normal text-xl mx-[5px] md:mx-[0px] text-[#ffffff80] md:w-[670px] pt-[14px] pb-[50px]'>
       I’am freelance <span className='text-white cursor-pointer'>UI/UX Desogner</span> based in Indonesia who loves to craft attractive design experiences for the web.</p>
  

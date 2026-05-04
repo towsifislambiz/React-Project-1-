@@ -3,17 +3,17 @@ import { GoArrowRight } from "react-icons/go";
 
 const Pcard = ({ title, heading, Text, title2  , className}) => {
     return (
-        <div className='w-[340px] md:w-[370px] shadow-2xl group'>
+        <div className='w-[340px] sm:w-[400px] md:w-[370px] shadow-2xl group'>
 
-            <div className={`w-[340px] md:w-[370px] h-[270px] bg-[#C4C4C4] ${className}`}></div>
+            <div className={`w-[340px] sm:w-[400px]  md:w-[370px] h-[270px] bg-[#C4C4C4] ${className}`}></div>
 
             <div className='mt-4 md:mt-5 ml-4 md:ml-6 mb-[30px]'>
 
-                <span className='font-vol font-medium text-base text-c2 cursor-pointer'>
+                <span className='font-vol font-medium sm:text-lg text-base text-c2 cursor-pointer'>
                     {title}
                 </span>
 
-                <h2 className='font-vol font-medium text-2xl text-c1 leading-[30px] pt-[10px]'>
+                <h2 className='font-vol font-medium sm:w-[380px] text-2xl text-c1 leading-[30px] pt-[10px]'>
                     {heading}
                 </h2>
 

@@ -17,7 +17,7 @@ const Footer = () => {
   </div>
 
 <div className='w-full flex justify-center pb-[40px] md:pb-[50px]'>
-    <ul className='flex flex-wrap gap-x-[10px] md:gap-x-[25px]'>
+    <ul className='flex flex-wrap gap-x-[10px] sm:gap-x-[20px] md:gap-x-[25px]'>
     <Flist Text='Home' className='cursor-pointer'/>
     <Flist Text='About' className='cursor-pointer'/>
     <Flist Text='Services' className='cursor-pointer'/>
