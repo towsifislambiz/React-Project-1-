@@ -13,7 +13,7 @@ const Service = () => {
     <div>
  <section className=' mt-[100px] md:mt-[211px] mb-[129px] relative'>
 
-<div className='hidden md:block animate-siring absolute top-[139px] left-[0px] bg-Service w-[80px] h-[247px] bg-cover bg-contain bg-no-repeat bg-center'></div>
+<div className='hidden lg:block animate-siring absolute top-[139px] left-[0px] bg-Service w-[80px] h-[247px] bg-cover bg-contain bg-no-repeat bg-center'></div>
    
        <Container> 
 <div className='flex justify-center'>

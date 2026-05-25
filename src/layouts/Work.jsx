@@ -10,8 +10,8 @@ const Work = () => {
   return (
  <section className='mb-[120px] relative'>
 
-    <div className='hidden md:block animate-Tb3 bg-Awimg w-[101px] h-[103px] bg-contain bg-center bg-cover absolute top-[100px] left-[100px]'></div>
-    <div className=' hidden md:block bg-Awimg w-[101px] h-[103px] bg-contain bg-center bg-cover absolute bottom-[-70px] right-[80px] animate-Bt'></div>
+    <div className='hidden lg:block animate-Tb3 bg-Awimg w-[101px] h-[103px] bg-contain bg-center bg-cover absolute top-[100px] left-[100px]'></div>
+    <div className=' hidden lg:block bg-Awimg w-[101px] h-[103px] bg-contain bg-center bg-cover absolute bottom-[-70px] right-[80px] animate-Bt'></div>
     <Container>
             <div className='flex w-full justify-center mb-3'>
         <Subtitle className='mr-[50px] md:mr-[0px]' Text='My Portfolio'/>

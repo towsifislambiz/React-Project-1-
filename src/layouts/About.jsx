@@ -17,7 +17,7 @@ const About = () => {
 
   return (
     <section className='relative'>
-        <div className='hidden md:block animate-Tb absolute top-[-60px] right-[153px] bg-Abimg1 w-[50px] h-[389px] bg-contain bg-cover bg-center '></div>
+        <div className='hidden lg:block animate-Tb absolute top-[-60px] right-[153px] bg-Abimg1 w-[50px] h-[389px] bg-contain bg-cover bg-center '></div>
      
      
      <Container>
@@ -73,7 +73,7 @@ const About = () => {
         {/* SKILLS CARDS */}
       <div className="mb-[80px] md:mb-[120px] mt-[80px]">
 
-  <div className="flex flex-wrap justify-center md:justify-between gap-5 md:gap-8">
+  <div className="flex flex-wrap justify-center lg:justify-between gap-5 lg:gap-8">
     {cardData.map((item) => (
       <Routateborder
         key={item.id}

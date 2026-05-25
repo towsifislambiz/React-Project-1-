@@ -14,13 +14,13 @@ import Button from '../Components/Button'
 const Project = () => {
   return (
   <section className='relative'>
-<div className= 'hidden md:block animate-plus absolute top-[204px] right-[0px] bg-Apimg bg-contain bg-center bg-cover  w-[101px] h-[103px]'></div>
-<div className='hidden md:block animate-Tb2 absolute bg-Abimg1 w-[50px] h-[389px] bg-contain bg-center bg-cover top-0 left-[84px]'></div>
+<div className= 'hidden lg:block animate-plus absolute top-[204px] right-[0px] bg-Apimg bg-contain bg-center bg-cover  w-[101px] h-[103px]'></div>
+<div className='hidden lg:block animate-Tb2 absolute bg-Abimg1 w-[50px] h-[389px] bg-contain bg-center bg-cover top-0 left-[84px]'></div>
     <Container>
 <div className='w-full flex justify-center md:block '>
     <Subtitle className='mr-[60px] md:mr-[0px]' Text='Recent Projects'/>
 </div>
-<div className='md:flex md:justify-between pt-[8px] mb-10' >
+<div className='md:flex md:justify-between md:mx-5 lg:mx-0 pt-[8px] mb-10' >
     <Heading className='text-center' text='My Recent Projects'/>
  <div className='hidden md:block w-[108px] md:flex justify-between  '>
         <div className='group hover:bg-c2 duration-300 flex justify-center items-center w-[44px] h-[44px] border border-[#00413d1a] '> <FaArrowLeft className=' group-hover:text-white duration-300 text-xl' /></div>
